@@ -1,0 +1,30 @@
+:root {
+  --primary: #7232f2;
+  --secondary:#c876ff;
+  --dark: #2e2e35;
+  --dark2: #34343b;
+  --light: #dadada;
+}
+
+$theme-colors: (
+  "primary": #7232f2,
+  "secondary":#c876ff,
+  "dark":#2e2e35,
+  "light":#dadada,
+);
+
+// Typography
+h1 {
+  color: var(--primary)
+}
+
+h2 {
+  color: var(--light)
+}
+
+p {
+  color: var(--light);
+  font-size: 18px;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";

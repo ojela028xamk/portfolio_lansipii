@@ -1,0 +1,46 @@
+.bg-header {
+    background-color: var(--dark);
+}
+  
+.header {
+    width: 1024px;
+    margin: auto;
+    padding: 20px;
+
+    img {
+        border: 5px solid var(--primary);
+        height: 250px;
+    }
+
+}
+
+.bg-skills {
+    background-color: var(--dark2);
+}
+  
+.skills {
+    width: 1024px;
+    min-height: 300px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+
+    .skills-card {
+        background-color: var(--dark);
+        margin: 20px;
+        padding: 25px;
+        color: var(--light)
+    }
+}
+
+.bg-portfolio {
+    background-color: var(--dark);
+}
+  
+.portfolio {
+    width: 1024px;
+    min-height: 300px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
