@@ -5,24 +5,32 @@
 .header {
     width: 1024px;
     margin: auto;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
 
     img {
         border: 5px solid var(--primary);
         height: 250px;
     }
 
+    a {
+        color: var(--light);
+        font-size: 1.5em;
+        padding: 0;
+        margin-left: 0.2em;
+    }
+    a:hover {
+        color: var(--primary);
+    }
 }
 
 .bg-skills {
-    background-color: var(--dark2);
+    background-color: var(--secondary);
 }
   
 .skills {
     width: 1024px;
-    min-height: 300px;
     margin: auto;
-    padding-top: 20px;
+    padding: 20px 0px 20px 0px;
     text-align: center;
 
     .skills-card {
@@ -39,8 +47,34 @@
   
 .portfolio {
     width: 1024px;
-    min-height: 300px;
     margin: auto;
-    padding-top: 20px;
+    padding: 20px 0px 20px 0px;
     text-align: center;
+}
+
+.bg-footer {
+    background-color: var(--secondary);
+
+    .copyright {
+        text-align: center;
+        color: var(--light);
+        font-size: 18px;
+        padding: 10px;
+        border-top: 2px solid var(--primary);
+    }
+}
+
+.footer {
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+
+    .footer-card {
+        background-color: var(--dark);
+        margin: 20px;
+        padding: 10px;
+        color: var(--light);
+        font-size: 20px;
+    }
 }

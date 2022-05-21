@@ -5,7 +5,7 @@ export default function Skills(): JSX.Element {
   return (
     <div className="bg-skills">
       <div className="skills">
-        <h1>Minun osaaminen</h1>
+        <h1>Osaaminen</h1>
         <p>
           Osaamista löytyy graafisesta suunnittelusta, käyttöliittymä- ja
           käyttökokemussuunnittelusta ja ohjelmoinnista.

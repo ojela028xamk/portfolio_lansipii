@@ -1,8 +1,9 @@
 import { Button, Col, Container, Image, Nav, Row } from "react-bootstrap";
+import { Github, Linkedin } from "react-bootstrap-icons";
 import "./Components.scss";
 
 export default function Header(): JSX.Element {
-  const avatar = require("../avatar.jpg");
+  const avatar = require("../avatar.png");
   return (
     <div className="bg-header">
       <div className="header">
@@ -20,22 +21,25 @@ export default function Header(): JSX.Element {
               </p>
               <Nav>
                 <Nav.Item>
-                  <Nav.Link href="" target={"_blank"}>
-                    GitHub
+                  <Nav.Link
+                    href="https://github.com/ojela028xamk"
+                    target={"_blank"}
+                  >
+                    <Github className="m-2" />
+                    <span className="align-middle">Github</span>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="" target={"_blank"}>
-                    Facebook
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link href="" target={"_blank"}>
-                    LinkedIn
+                  <Nav.Link
+                    href="https://www.linkedin.com/in/jere-l%C3%A4nsipii-60b1a3217/"
+                    target={"_blank"}
+                  >
+                    <Linkedin className="m-2" />
+                    <span className="align-middle">LinkedIn</span>
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
-              <Button variant="outline-primary" size="lg">
+              <Button variant="outline-primary" size="lg" className="mt-3">
                 Minun CV
               </Button>
             </Col>
