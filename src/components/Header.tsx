@@ -5,7 +5,7 @@ import "./Components.scss";
 export default function Header(): JSX.Element {
   const avatar = require("../avatar.png");
   return (
-    <div className="bg-header">
+    <div className="bg-dark">
       <div className="header">
         <Container>
           <Row>
@@ -13,11 +13,11 @@ export default function Header(): JSX.Element {
               <h2>Graafinen suunnittelija ja koodari</h2>
               <h1>Jere Länsipii</h1>
               <p>
-                Hei, olen juuri valmistunut tradenomi, tietojenkäsittelyn
-                linjalta ja asustelen Mikkelissä. Opintojen tiimoilta osaamista
-                löytyy graafisesta suunnittelusta, käyttöliittymä- ja
-                käyttökokemussuunnittelusta ja ohjelmoinnista. Ennen opiskeluja
-                minulta löytyy yli kolme vuotta työkokemusta.
+                Hei, olen tradenomi tietojenkäsittelyn linjalta ja asustelen
+                Mikkelissä. Olen tällä hetkellä työharjoittelussa Mipro Oy:ssä,
+                jossa työnkuvaani kuuluu sovellusohjelmointia frontend-puolella
+                ja graafisesta suunnittelua. Minulta löytyy myös yli kolme
+                vuotta työkokemusta.
               </p>
               <Nav>
                 <Nav.Item>

@@ -13,9 +13,15 @@ export default function Portfolio(): JSX.Element {
   }
 
   return (
-    <div className="bg-portfolio">
+    <div className="bg-dark">
       <div className="portfolio">
         <h1 className="mb-3">Projektit</h1>
+        <p>
+          Alta löytyy erilaisia projekteja, joita olen tehnyt. Seuraava
+          projektini tulee olemaan sivusto, johon voi lisätä omia reseptejä
+          tietokantaan. Tämä toteutetaan ReactJS- ja Node.js-teknologioilla.
+          Tietokantateknologiaa ei ole vielä päätetty.
+        </p>
         <Container>
           <Row>
             {myProjects.map((project: ProjectsTS) => (

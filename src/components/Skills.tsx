@@ -3,12 +3,13 @@ import { Pen, CodeSlash, PcDisplay } from "react-bootstrap-icons";
 
 export default function Skills(): JSX.Element {
   return (
-    <div className="bg-skills">
+    <div className="bg-secondary">
       <div className="skills">
         <h1>Osaaminen</h1>
         <p>
           Osaamista löytyy graafisesta suunnittelusta, käyttöliittymä- ja
-          käyttökokemussuunnittelusta ja ohjelmoinnista.
+          käyttökokemussuunnittelusta ja ohjelmoinnista, kuten myös
+          responsiivisesta suunnittelusta.
         </p>
         <Container>
           <Row>
@@ -24,8 +25,8 @@ export default function Skills(): JSX.Element {
               <CodeSlash size={50} color="var(--primary)" />
               <h2 className="mt-3">Ohjelmointi</h2>
               <p>
-                HTML/CSS/JS. Osaamista löytyy myös ReactJS ja hieman Node.js,
-                kuten myös responsiivisesta suunnittelusta.
+                HTML/CSS/JS. Osaamista löytyy myös ReactJS, React bootstrapista
+                ja Typescriptistä. Osaan myös jonkin kerran käyttää Node.js.
               </p>
             </Col>
             <Col className="skills-card">
