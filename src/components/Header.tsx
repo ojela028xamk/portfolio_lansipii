@@ -19,7 +19,7 @@ export default function Header(): JSX.Element {
                 ja graafisesta suunnittelua. Minulta löytyy myös yli kolme
                 vuotta työkokemusta.
               </p>
-              <Nav>
+              <Nav className="header-nav">
                 <Nav.Item>
                   <Nav.Link
                     href="https://github.com/ojela028xamk"
@@ -39,7 +39,13 @@ export default function Header(): JSX.Element {
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
-              <Button variant="outline-primary" size="lg" className="mt-3">
+              <Button
+                variant="outline-primary"
+                size="lg"
+                className="mt-3"
+                target={"_blank"}
+                href="https://drive.google.com/file/d/1MaGxFg3l3_E7OdmCUxgR0jvfXPX__S0a/view?usp=sharing"
+              >
                 Minun CV
               </Button>
             </Col>
