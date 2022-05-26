@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio.lansipii/static/css/main.e2d48ceb.css",
+    "main.js": "/portfolio.lansipii/static/js/main.39c554ac.js",
+    "static/js/787.b8660e64.chunk.js": "/portfolio.lansipii/static/js/787.b8660e64.chunk.js",
+    "static/media/avatar.png": "/portfolio.lansipii/static/media/avatar.8f8fc1a269b5707b8d7a.png",
+    "static/media/skills_2.png": "/portfolio.lansipii/static/media/skills_2.51688a60a11c5289754f.png",
+    "static/media/skills_3.png": "/portfolio.lansipii/static/media/skills_3.b04638749f16b2adea14.png",
+    "index.html": "/portfolio.lansipii/index.html",
+    "main.e2d48ceb.css.map": "/portfolio.lansipii/static/css/main.e2d48ceb.css.map",
+    "main.39c554ac.js.map": "/portfolio.lansipii/static/js/main.39c554ac.js.map",
+    "787.b8660e64.chunk.js.map": "/portfolio.lansipii/static/js/787.b8660e64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2d48ceb.css",
+    "static/js/main.39c554ac.js"
+  ]
+}
