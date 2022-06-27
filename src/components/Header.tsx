@@ -14,9 +14,8 @@ export default function Header(): JSX.Element {
               <h1>Jere Länsipii</h1>
               <p>
                 Hei, olen tradenomi tietojenkäsittelyn linjalta ja asustelen
-                Mikkelissä. Olen tällä hetkellä työharjoittelussa Mipro Oy:ssä,
-                jossa työnkuvaani kuuluu sovellusohjelmointia frontend-puolella
-                ja graafisesta suunnittelua. Minulta löytyy myös yli kolme
+                Mikkelissä. Koulutuksen ja töiden tiimoilta osaamista löytyy
+                frontend-puolelta ja hieman backend-puolelta. Minulta löytyy myös yli kolme
                 vuotta työkokemusta.
               </p>
               <Nav className="header-nav">
