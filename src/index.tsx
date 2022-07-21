@@ -5,13 +5,24 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./scss/custom.scss";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Page1 from "./components/pages/Page1";
+import Page2 from "./components/pages/Page2";
+import Page3 from "./components/pages/Page3";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<App />} />
+        <Route path="page1" element={<Page1 />} />
+        <Route path="page2" element={<Page2 />} />
+        <Route path="page3" element={<Page3 />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

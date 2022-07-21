@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { Pen, CodeSlash, PcDisplay } from "react-bootstrap-icons";
+import "./Components.scss";
 
 export default function Skills(): JSX.Element {
   return (
@@ -26,7 +27,8 @@ export default function Skills(): JSX.Element {
               <h2 className="mt-3">Ohjelmointi</h2>
               <p>
                 HTML/CSS/JS. Osaamista löytyy myös ReactJS, React bootstrapista
-                ja Typescriptistä. Osaan myös jonkin kerran käyttää Node.js.
+                ja Typescriptistä. Osaan myös jonkin kerran käyttää Node.js ja
+                MySQL.
               </p>
             </Col>
             <Col className="skills-card">

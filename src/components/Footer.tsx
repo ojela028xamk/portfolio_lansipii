@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { Discord, Envelope, TelephoneFill } from "react-bootstrap-icons";
+import "./Components.scss";
 
 export default function Footer(): JSX.Element {
   return (
