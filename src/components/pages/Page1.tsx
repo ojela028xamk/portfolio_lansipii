@@ -33,7 +33,7 @@ export default function Page1(): JSX.Element {
               </p>
               <Button variant="primary" className="button">
                 <a
-                  href="https://react-projects-3265b.firebaseapp.com/"
+                  href="https://ojela028xamk.github.io/recipe-creator/"
                   target="_blank"
                   rel="noreferrer"
                 >
